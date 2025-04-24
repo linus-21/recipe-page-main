@@ -9,6 +9,7 @@
     align-items: center;
     min-height: 200vh;
     background: hsl(30, 54%, 90%);
+    
 }
 img{
     width: 100%;
@@ -26,13 +27,7 @@ img{
      border-radius: 20px;
      margin: 7%;
  }
- td{
-    padding-left: 30px;
- } 
-  tr:hover {
-    background-color: #D6EEEE;
-    border-bottom-color: 5px solid #dddddd00;
-}
+
 .attribution{
     padding-top: 20px;
 }
@@ -87,16 +82,21 @@ h3{
     margin-bottom: 10px;
     color:  hsl(332, 51%, 32%);
 }
-.line{
-    border-bottom: 1px solid;
-    display: flex;
-    justify-content: space-between;
-
-   
+td{
+    padding-bottom: 10px;
+    font-size: 18px;
 }
-
-.container3{
-    width: 90%;
-    margin: 0;
+table{
+    padding-left: 1rem; 
 }
-
+.num{
+    padding-left: 12rem;
+    color: hsl(14, 45%, 36%);
+    font-weight: 1000;
+}
+tr{
+   border-bottom: 5px solid black; 
+}
+tr:hover {
+    background-color: #D6EEEE;
+}
